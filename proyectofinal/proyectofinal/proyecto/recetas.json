@@ -1,0 +1,99 @@
+[{
+        "id": 1,
+        "nombrereceta": "Pizza",
+        "ingredientes": [{
+                "producto": "Salsa tomate",
+                "cantidad": 2
+            },
+            {
+                "producto": "Queso Mozzarella",
+                "cantidad": 1
+            },
+            {
+                "producto": "Pepperoni",
+                "cantidad": 3
+            }
+        ]
+    },
+	{
+        "id": 2,
+        "nombrereceta": "Pollo Asado",
+        "ingredientes": [{
+                "producto": "Pollo",
+                "cantidad": 1
+            },
+            {
+                "producto": "Papa",
+                "cantidad": 4
+            },
+            {
+                "producto": "Cebolla",
+                "cantidad": 4
+            }
+        ]
+    },
+	{
+        "id": 3,
+        "nombrereceta": "Bizcocho de leche",
+        "ingredientes": [{
+                "producto": "Huevo",
+                "cantidad": 3
+            },
+            {
+                "producto": "Harina",
+                "cantidad": 250
+            },
+            {
+                "producto": "Azucar",
+                "cantidad": 200
+            }
+        ]
+    },
+	{
+        "id": 4,
+        "nombrereceta": "Tacos",
+        "ingredientes": [{
+                "producto": "Tortillas de Maiz",
+                "cantidad": 6
+            },
+            {
+                "producto": "Carne",
+                "cantidad": 1
+            },
+            {
+                "producto": "Ajo",
+                "cantidad": 4
+            }
+        ]
+    },
+	{
+        "id": 5,
+        "nombrereceta": "Macarrones",
+        "ingredientes": [{
+                "producto": "Macarrones",
+                "cantidad": 50
+            },
+            {
+                "producto": "Cebolla",
+                "cantidad": 1
+            },
+            {
+                "producto": "Ajo",
+                "cantidad": 4
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "nombrereceta": "Otra receta",
+        "ingredientes": [{
+                "producto": "Ingrediente 1",
+                "cantidad": 50
+            },
+            {
+                "producto": "Ingrediente 2",
+                "cantidad": 75
+            }
+        ]
+    }
+]

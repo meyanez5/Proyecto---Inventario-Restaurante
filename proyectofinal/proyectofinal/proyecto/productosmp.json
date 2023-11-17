@@ -1,0 +1,35 @@
+{
+    "1": {
+        "codigo": "12345",
+        "nproducto": "Salsa de tomate",
+        "costo": "5",
+        "nproveedor": "Gustadina",
+        "desc": "Salsa",
+        "cantidad": "3",
+        "peso": "400 ",
+        "unidadm": "gr",
+        "fcaducidad": "20\/12\/2025"
+    },
+    "2": {
+        "codigo": "12345",
+        "nproducto": "Queso mozzarella",
+        "costo": "4.40",
+        "nproveedor": "Kiosko",
+        "desc": "Rueda de queso",
+        "cantidad": "4",
+        "peso": "50",
+        "unidadm": "kg",
+        "fcaducidad": "12\/04\/2027"
+    },
+    "3": {
+        "codigo": "4567",
+        "nproducto": "Pepperoni",
+        "costo": "6.60",
+        "nproveedor": "La Italiana",
+        "desc": "Barra de carnes fr\u00edas",
+        "cantidad": "2",
+        "peso": "2",
+        "unidadm": "kg",
+        "fcaducidad": "13\/08\/2024"
+    }
+}

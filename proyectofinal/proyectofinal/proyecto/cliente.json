@@ -1,0 +1,23 @@
+[
+    {
+        "codigo": "170804",
+        "nombre": "Andres",
+        "apellido": "Cuesta",
+        "direccion": "Rio tiputini",
+        "telefono": "+593 09876543"
+    },
+    {
+        "codigo": "7151264",
+        "nombre": "Steven",
+        "apellido": "Prieto",
+        "direccion": "Chillogallo",
+        "telefono": "+593 1234567899"
+    },
+    {
+        "codigo": "41628",
+        "nombre": "Micaela",
+        "apellido": "Haro",
+        "direccion": "Reino Unido",
+        "telefono": "+44 234567891"
+    }
+]

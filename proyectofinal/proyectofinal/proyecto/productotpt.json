@@ -1,0 +1,52 @@
+[
+    {
+        "codigo": "1",
+        "nplatillo": "Pizza",
+        "p1": "Salsa Tomate",
+        "cantidad": "2 ",
+        "p2": "Quezo Mozzarella",
+        "cantidad1": "1",
+        "p3": "Pepperoni",
+		"cantidad2": "3"
+    },
+    {
+        "codigo": "2",
+        "nplatillo": "Pollo Asado",
+        "p1": "Pollo",
+        "cantidad": "1",
+        "p2": "Papa",
+        "cantidad1": "4",
+        "p3": "Cebolla",
+		"cantidad2": "4"
+    },
+    {
+        "codigo": "3",
+        "nplatillo": "Bizcocho de leche",
+        "p1": "Huevo",
+        "cantidad": "3",
+        "p2": "Harina",
+        "cantidad1": "250",
+        "p3": "Azucar",
+		"cantidad2": "200"
+    },
+    {
+        "codigo": "4",
+        "nplatillo": "Tacos",
+        "p1": "Tortillas de Maiz",
+        "cantidad": "6",
+        "p2": "Carne",
+        "cantidad1": "1",
+        "p3": "Ajo",
+		"cantidad2": "4"
+    },
+	{
+        "codigo": "5",
+        "nplatillo": "Macarrones",
+        "p1": "Macarrones",
+        "cantidad": "50",
+        "p2": "Cebolla",
+        "cantidad1": "1",
+        "p3": "Ajo",
+		"cantidad2": "4"
+    }
+]

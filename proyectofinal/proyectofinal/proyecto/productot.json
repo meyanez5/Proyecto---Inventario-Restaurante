@@ -1,0 +1,47 @@
+[
+    {
+        "codigo": "001",
+        "nplatillo": "Seco de carne",
+        "costo": "2.50",
+        "desc": "Segundo ",
+        "cantidad": "2",
+        "fechacaducidad": "26\/02\/2023",
+        "fechaelaboracion": "26\/02\/2023"
+    },
+    {
+        "codigo": "170804",
+        "nplatillo": "Pasta",
+        "costo": "5",
+        "desc": "Comida italiana",
+        "cantidad": "1",
+        "fechacaducidad": "23\/06\/2023",
+        "fechaelaboracion": "23\/06\/2023"
+    },
+    {
+        "codigo": "170804",
+        "nplatillo": "Guatita",
+        "costo": "6",
+        "desc": "Segundo con salsa de mani",
+        "cantidad": "3",
+        "fechacaducidad": "23\/06\/2023",
+        "fechaelaboracion": "23\/06\/2023"
+    },
+    {
+        "codigo": "170809",
+        "nplatillo": "Encebollado",
+        "costo": "2.50",
+        "desc": "Plato coste\u00f1o",
+        "cantidad": "16",
+        "fechacaducidad": "23\/06\/2023",
+        "fechaelaboracion": "23\/06\/2023"
+    },
+    {
+        "codigo": "0987",
+        "nplatillo": "Arroz relleno",
+        "costo": "2.50",
+        "desc": "arroz con granos y especias",
+        "cantidad": "2",
+        "fechacaducidad": "08\/03\/2023",
+        "fechaelaboracion": "08\/07\/2023"
+    }
+]

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Añadir Platillo</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="page-header text-center">Añadir Platillo</h1>
+    <div class="row">
+        <div class="col-1"></div>
+        
+        <form method="POST">
+            <div class="mb-3 row">
+                <label class="col-sm-2 col-form-label">Codigo</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="codigo" name="codigo">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label class="col-sm-2 col-form-label">Nombre del Platillo</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="nplatillo" name="nplatillo">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label class="col-sm-2 col-form-label">Producto1</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="p1" name="p1">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label class="col-sm-2 col-form-label">Cantidad</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="cantidad" name="cantidad">
+                </div>  
+            </div>
+            <div class="mb-3 row">
+                <label class="col-sm-2 col-form-label">Producto2</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="p2" name="p2">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label class="col-sm-2 col-form-label">Cantidad</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="cantidad1" name="cantidad1">
+                </div>  
+            </div>
+            <div class="mb-3 row">
+                <label class="col-sm-2 col-form-label">Producto3</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="p3" name="p3">
+                </div>      
+            </div>
+            <div class="mb-3 row">
+                <label class="col-sm-2 col-form-label">Cantidad</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="cantidad2" name="cantidad2">
+                </div>  
+            </div>
+            <input type="submit" name="save" value="Guardar" class="btn btn-primary">
+            <div style="margin-left: 20px;display:inline;"><a href="recetapt.php">Back</a>
+        </form>
+        </div>
+        <div class="col-5"></div>
+    </div>
+</div>  
+<?php
+if(isset($_POST['save'])){
+    //open the json file
+    $data = file_get_contents('productotpt.json');
+    $data = json_decode($data);
+ 
+    //data in our POST
+    $input = array(
+        'codigo' => $_POST['codigo'],
+        'nplatillo' => $_POST['nplatillo'],
+        'p1' => $_POST['p1'],
+        'cantidad' => $_POST['cantidad'],
+        'p2' => $_POST['p2'],
+        'cantidad1' => $_POST['cantidad1'],
+        'p3' => $_POST['p3'],
+		'cantidad2' => $_POST['cantidad1']
+    );
+ 
+    //append the input to our array
+    $data[] = $input;
+    //encode back to json
+    $data = json_encode($data, JSON_PRETTY_PRINT);
+    file_put_contents('productotpt.json', $data);
+
+    header('location: recetapt.php');
+}
+?>
+
+
+</body>
+</html>

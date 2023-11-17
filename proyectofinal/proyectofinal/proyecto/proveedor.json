@@ -1,0 +1,16 @@
+[
+    {
+        "codigo": "170804",
+        "nombre": "Kiosko",
+        "apellido": "",
+        "direccion": "La comuna",
+        "telefono": "+593968044256"
+    },
+    {
+        "codigo": "123456",
+        "nombre": "Gustadina",
+        "apellido": "",
+        "direccion": "El condado",
+        "telefono": "+593 125173738"
+    }
+]
